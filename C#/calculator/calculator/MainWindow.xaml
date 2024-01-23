@@ -1,0 +1,27 @@
+﻿<Window x:Class="calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:calculator"
+        mc:Ignorable="d"
+        Title="덧셈 계산기" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="number1" HorizontalAlignment="Left" Height="33" Margin="254,193,0,0" Content="1" VerticalAlignment="Top" Width="60" Click="number_Click"/>
+        <Button x:Name="number2" HorizontalAlignment="Left" Height="33" Margin="334,193,0,0" Content="2" VerticalAlignment="Top" Width="60" Click="number_Click"/>
+        <Button x:Name="number3" HorizontalAlignment="Left" Height="33" Margin="414,193,0,0" Content="3" VerticalAlignment="Top" Width="60" Click="number_Click"/>
+        <Button x:Name="number4" HorizontalAlignment="Left" Height="33" Margin="254,242,0,0" Content="4" VerticalAlignment="Top" Width="60" Click="number_Click"/>
+        <Button x:Name="number5" HorizontalAlignment="Left" Height="33" Margin="334,242,0,0" Content="5" VerticalAlignment="Top" Width="60" Click="number_Click"/>
+        <Button x:Name="number6" HorizontalAlignment="Left" Height="33" Margin="414,242,0,0" Content="6" VerticalAlignment="Top" Width="60" Click="number_Click"/>
+        <Button x:Name="number7" HorizontalAlignment="Left" Height="33" Margin="254,292,0,0" Content="7" VerticalAlignment="Top" Width="60" Click="number_Click"/>
+        <Button x:Name="number8" HorizontalAlignment="Left" Height="33" Margin="334,292,0,0" Content="8" VerticalAlignment="Top" Width="60" Click="number_Click"/>
+        <Button x:Name="number9" HorizontalAlignment="Left" Height="33" Margin="414,292,0,0" Content="9" VerticalAlignment="Top" Width="60" Click="number_Click"/>
+        <Button x:Name="plus" HorizontalAlignment="Left" Height="33" Margin="491,193,0,0" Content="+" VerticalAlignment="Top" Width="60" Click="plus_Click" Background="#FFF0F0F0"/>
+        <Button x:Name="number0" HorizontalAlignment="Left" Height="33" Margin="334,342,0,0" Content="0" VerticalAlignment="Top" Width="60" Click="number_Click"/>
+        <Button x:Name="result" HorizontalAlignment="Left" Height="33" Margin="414,342,0,0" Content="=" VerticalAlignment="Top" Width="60" Click="result_Click" Background="#FFF0F0F0"/>
+        <TextBox x:Name="txtResult" HorizontalAlignment="Center" Height="60" Margin="0,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="302"/>
+        <Button x:Name="minus" HorizontalAlignment="Left" Height="33" Margin="491,242,0,0" Content="-" VerticalAlignment="Top" Width="60" Click="minus_Click" Background="#FFF0F0F0"/>
+        <Button x:Name="dot" HorizontalAlignment="Left" Height="33" Margin="254,342,0,0" Content="." VerticalAlignment="Top" Width="60" Click="number_Click"/>
+
+    </Grid>
+</Window>
