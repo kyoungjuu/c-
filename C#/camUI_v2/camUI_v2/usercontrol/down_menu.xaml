@@ -5,36 +5,46 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:camUI_v2.usercontrol"
              mc:Ignorable="d" 
-                      d:DesignHeight="50" d:DesignWidth="1280">
-    <Grid Background="#FF3C3C3C">
-        <Button x:Name="all_veiw" HorizontalAlignment="Left" Margin="5,3,500,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}">
-            <Image Source="C:\Users\서경주\Desktop\C#\camUi\box1.png" Height="35" Width="39"></Image>
+                      d:DesignHeight="30" d:DesignWidth="1280">
+    <StackPanel Orientation="Horizontal" 
+                Background="#FF3C3C3C">
+        <Button x:Name="all_veiw" Width="30"
+                Background="{x:Null}">
+            <Image Source="/Resources/box1.png"></Image>
         </Button>
-        <Button x:Name="top_veiw" HorizontalAlignment="Left" Margin="45,3,500,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}">
-            <Image Source="C:\Users\서경주\Desktop\C#\camUi\box2.png" Height="35" Width="39"></Image>
+        <Button x:Name="top_veiw" Width="30"
+                Background="{x:Null}">
+            <Image Source="/Resources/box2.png"></Image>
         </Button>
-        <Button x:Name="down_veiw" HorizontalAlignment="Left" Margin="85,3,500,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}">
-            <Image Source="C:\Users\서경주\Desktop\C#\camUi\box3.png" Height="35" Width="39"></Image>
+        <Button x:Name="down_veiw" Width="30"
+                 Background="{x:Null}">
+            <Image Source="/Resources/box3.png"></Image>
         </Button>
-        <Button x:Name="pront_veiw" HorizontalAlignment="Left" Margin="125,3,500,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}">
-            <Image Source="C:\Users\서경주\Desktop\C#\camUi\box4.png" Height="35" Width="39"></Image>
+        <Button x:Name="pront_veiw" Width="30"
+                 Background="{x:Null}">
+            <Image Source="/Resources/box4.png"></Image>
         </Button>
-        <Button x:Name="back_veiw" HorizontalAlignment="Left" Margin="165,3,500,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}">
-            <Image Source="C:\Users\서경주\Desktop\C#\camUi\box5.png" Height="35" Width="39"></Image>
+        <Button x:Name="back_veiw" Width="30"
+                Background="{x:Null}">
+            <Image Source="/Resources/box5.png"></Image>
         </Button>
-        <Button x:Name="right_veiw" HorizontalAlignment="Left" Margin="205,3,500,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}">
-            <Image Source="C:\Users\서경주\Desktop\C#\camUi\box6.png" Height="35" Width="39"></Image>
+        <Button x:Name="right_veiw" Width="30"
+                Background="{x:Null}">
+            <Image Source="/Resources/box6.png"></Image>
         </Button>
-        <Button x:Name="left_veiw" HorizontalAlignment="Left" Margin="245,3,500,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}">
-            <Image Source="C:\Users\서경주\Desktop\C#\camUi\box7.png" Height="35" Width="39"></Image>
+        <Button x:Name="left_veiw" Width="30"
+                Background="{x:Null}">
+            <Image Source="/Resources/box7.png"></Image>
         </Button>
-        <Button x:Name="move" HorizontalAlignment="Left" Margin="285,3,500,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}">
-            <Image Source="C:\Users\서경주\Desktop\C#\camUi\four-way.png" Height="35" Width="39"></Image>
+        <Button x:Name="move" Width="30"
+                Background="{x:Null}">
+            <Image Source="/Resources/four-way.png"></Image>
         </Button>
-        <Button x:Name="rotation" HorizontalAlignment="Left" Margin="325,3,500,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="{x:Null}">
-            <Image Source="C:\Users\서경주\Desktop\C#\camUi\rotation.png" Height="35" Width="39"></Image>
+        <Button x:Name="rotation" Width="30"
+                Background="{x:Null}">
+            <Image Source="/Resources/rotation.png"></Image>
         </Button>
 
 
-    </Grid>
+    </StackPanel>
 </UserControl>

@@ -7,17 +7,59 @@
              mc:Ignorable="d" 
                       d:DesignHeight="620" d:DesignWidth="200">
     <Grid  Background="#FF3C3C3C">
+        
         <TreeView>
-            <TreeViewItem Header="Employee1">
-                <TreeViewItem Header="Jesper"/>
-                <TreeViewItem Header="Aaberg"/>
-                <TreeViewItem Header="12345"/>
+            
+            <!--작업목록 설정-->
+            <TextBlock><Bold> JOB INFORMATION</Bold></TextBlock>
+            <TreeViewItem Header="AM SOLUTIONS ROBOT SYSTEM">
+                <TreeViewItem Header="KR70 R2100"/>
+                <TreeViewItem Header="KP2-HV500">
+                    <TreeViewItem Header="KP2 Work frame">
+                        <TreeViewItem Header="Parts Name.stl"/>
+                        <TreeViewItem Header="Tool path1"/>
+                    </TreeViewItem>
+                </TreeViewItem>
             </TreeViewItem>
-            <TreeViewItem Header="Employee2">
-                <TreeViewItem Header="Dominik"/>
-                <TreeViewItem Header="Paiha"/>
-                <TreeViewItem Header="98765"/>
+            
+            <!--PATH PLANNING-Slicing-->
+            <TextBlock><Bold> Slicing</Bold></TextBlock>
+            <TreeViewItem Header="Slicing">
+                <TreeViewItem Header="Slicing Type"/>
+                <TreeViewItem Header="Slicing Option"/>
             </TreeViewItem>
+
+            <!--PATH PLANNING-Process-->
+            <TextBlock><Bold> Process</Bold></TextBlock>
+            <TreeViewItem Header="Process">
+                <TreeViewItem Header="Layer Height"/>
+                <TreeViewItem Header="Toolpath Spacing"/>
+                <TreeViewItem Header="Contour to Filling Spacing"/>
+                <TreeViewItem Header="Define Spacing"/>
+            </TreeViewItem>
+
+            <!--PATH PLANNING-Toolpath config-->
+            <TextBlock><Bold> Toolpath config</Bold></TextBlock>
+            <TreeViewItem Header="Toolpath config">
+                <TreeViewItem Header="Contour Orientation"/>
+                <TreeViewItem Header="Infill Method"/>
+                <TreeViewItem Header="Odering"/>
+                <TreeViewItem Header="Fixed all layers"/>
+                <TreeViewItem Header="User Edit"/>
+                <TreeViewItem Header="Infill Rotation"/>
+                <TreeViewItem Header="Start Angle"/>
+                <TreeViewItem Header="Increment Angle"/>
+            </TreeViewItem>
+
+            <!--PATH PLANNING-Movement-->
+            <TextBlock><Bold> Movement</Bold></TextBlock>
+            <TreeViewItem Header="Movement">
+                <TreeViewItem Header="Wire Feeding Time"/>
+                <TreeViewItem Header="Dwell Time"/>
+                <TreeViewItem Header="Printing Speed"/>
+                <TreeViewItem Header="Rapid Traverse Speed"/>
+            </TreeViewItem>
+
         </TreeView>
 
 

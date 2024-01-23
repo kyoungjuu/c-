@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -123,10 +124,37 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="usercontrol\am.png" />
+    <Resource Include="Resources\box6.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="usercontrol\setting.png" />
+    <Resource Include="Resources\box7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\four-way.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\rotation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\am.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\box1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\box2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\box3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\box4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\box5.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
